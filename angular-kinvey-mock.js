@@ -54,7 +54,7 @@
      * Module
      */
 
-    angular.module('kinvey-angular-mock', [])
+    angular.module('kinvey-mock', [])
         .service('$kinveyMock', $kinveyMock);
 
 }());
