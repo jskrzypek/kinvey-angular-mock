@@ -14,10 +14,16 @@ Inject the module:
 
 ## Support
 
-### $kinveyMock.File
+### File
 
-$kinveyMock.File.upload
-$kinveyMock.File.destroy
-$kinveyMock.File.stream
+**$kinveyMock.File.upload(file)**
+file: any object
 
-### $kinveyMock.User
+**$kinveyMock.File.destroy(fileId)**
+fileId: integer
+
+**$kinveyMock.File.stream(fileId)**
+fileId: integer
+
+
+### User
