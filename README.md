@@ -1,7 +1,7 @@
-kinvey-angular-mock
+kinvey-mock
 ===================
 
-Mock the official $kinvey AngularJS service in unit tests.
+Mock Kinvey's official $kinvey AngularJS service in unit tests.
 
 
 ## Usage
