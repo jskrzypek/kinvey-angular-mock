@@ -1,29 +1,74 @@
-kinvey-mock
+kinvey-angular-mock
 ===================
 
 Mock Kinvey's official $kinvey AngularJS service in unit tests.
 
+*Psst... We also provide Kinvey's official Angular library on bower [here](https://github.com/GravityJack/bower-kinvey-angular).*
+
 
 ## Usage
 
-Inject the module:
+Simply inject the mock module to override the `$kinvey` service with the mock `$kinvey` service:
 ```javascript
+describe('kinvey-mock module', function() {
 
+    beforeEach(function() {
+        // this module will replace the real $kinvey service
+        module('kinvey-mock');
+    });
 
+    it('should provide the mocked $kinvey service', function() {
+        var $kinvey = $injector.get('$kinvey');
+
+        $kinvey.ping().then(function(response) {
+            expect(response.appName).toBe("Mock App");
+        });
+    });
+});
 ```
+
 
 ## Support
 
-### File
+### Members
 
-**$kinveyMock.File.upload(file)**
-file: any object
+$kinvey.API_ENDPOINT
+$kinvey.API_VERSION
+$kinvey.SDK_VERSION
 
-**$kinveyMock.File.destroy(fileId)**
-fileId: integer
+### Methods
 
-**$kinveyMock.File.stream(fileId)**
-fileId: integer
+$kinvey.getActiveUser()
+$kinvey.init(options)
+$kinvey.ping(options)
+
+### Namespaces
+
+**Kinvey.DataStore**
+
+**Kinvey.File**
+$kinvey.File.upload(file)
+$kinvey.File.destroy(fileId)
+$kinvey.File.stream(fileId)
+
+**Kinvey.User**
 
 
-### User
+## TODO
+PRs welcome!
+
+### Methods
+$kinvey.execute(id, args, options)
+$kinvey.setActiveUser(user)
+
+### Classes
+**Kinvey.Acl**
+**Kinvey.Error**
+**Kinvey.Group**
+**Kinvey.Metadata**
+**Kinvey.Query**
+
+### Namespaces
+**Kinvey.Defer**
+**Kinvey.Social**
+**Kinvey.Sync**
