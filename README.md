@@ -1,7 +1,7 @@
 kinvey-angular-mock
 ===================
 
-Mock Kinvey's official $kinvey AngularJS service in unit tests.
+Mock Kinvey's official `$kinvey` AngularJS service in unit tests.
 
 *Psst... We also provide Kinvey's official Angular library on bower [here](https://github.com/GravityJack/bower-kinvey-angular).*
 
