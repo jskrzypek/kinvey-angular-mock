@@ -32,43 +32,51 @@ describe('kinvey-mock module', function() {
 
 ### Members
 
-$kinvey.API_ENDPOINT
-$kinvey.API_VERSION
-$kinvey.SDK_VERSION
+* $kinvey.API_ENDPOINT
+* $kinvey.API_VERSION
+* $kinvey.SDK_VERSION
 
 ### Methods
 
-$kinvey.getActiveUser()
-$kinvey.init(options)
-$kinvey.ping(options)
+* $kinvey.getActiveUser()
+* $kinvey.init()
+* $kinvey.ping()
 
 ### Namespaces
 
 **Kinvey.DataStore**
+* wip
 
 **Kinvey.File**
-$kinvey.File.upload(file)
-$kinvey.File.destroy(fileId)
-$kinvey.File.stream(fileId)
+* $kinvey.File.upload(file)
+* $kinvey.File.destroy(fileId)
+* $kinvey.File.stream(fileId)
 
 **Kinvey.User**
-
+* wip
 
 ## TODO
 PRs welcome!
 
 ### Methods
-$kinvey.execute(id, args, options)
-$kinvey.setActiveUser(user)
+* $kinvey.execute(id, args, options)
+* $kinvey.setActiveUser(user)
 
 ### Classes
 **Kinvey.Acl**
+
 **Kinvey.Error**
+
 **Kinvey.Group**
+
 **Kinvey.Metadata**
+
 **Kinvey.Query**
+
 
 ### Namespaces
 **Kinvey.Defer**
+
 **Kinvey.Social**
+
 **Kinvey.Sync**
