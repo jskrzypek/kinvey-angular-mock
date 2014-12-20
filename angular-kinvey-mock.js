@@ -46,6 +46,8 @@
              */
 
             service.User = {};
+            
+            return service;
         }
     ];
 
@@ -55,6 +57,6 @@
      */
 
     angular.module('kinvey-mock', [])
-        .service('$kinveyMock', $kinveyMock);
+        .factory('$kinveyMock', $kinveyMock);
 
 }());
