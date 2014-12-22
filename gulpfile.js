@@ -74,7 +74,7 @@
      Watch
      */
     gulp.task('watch', function() {
-        return gulp.watch(paths.src, ['build']);
+        return gulp.watch(paths.src + '**/**', ['build']);
     });
 
 
