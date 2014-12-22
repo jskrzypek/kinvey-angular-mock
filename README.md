@@ -36,6 +36,38 @@ describe('kinvey-mock module', function() {
 * $kinvey.API_VERSION
 * $kinvey.SDK_VERSION
 
+### Classes
+
+**Kinvey.Query**
+Assuming `var query = new $kinvey.Query();`:
+
+* query.and()
+* query.ascending()
+* query.contains()
+* query.containsAll()
+* query.descending()
+* query.equalTo()
+* query.exists()
+* query.fields()
+* query.greaterThan()
+* query.greaterThanOrEqualTo()
+* query.lessThan()
+* query.lessThanOrEqualTo()
+* query.limit()
+* query.matches()
+* query.mod()
+* query.near()
+* query.nor()
+* query.notContainedIn()
+* query.notEqualTo()
+* query.or()
+* query.size()
+* query.skip()
+* query.sort()
+* query.toJSON()
+* query.withinBox()
+* query.withinPolygon()
+
 ### Methods
 
 * $kinvey.getActiveUser()
@@ -70,8 +102,6 @@ PRs welcome!
 **Kinvey.Group**
 
 **Kinvey.Metadata**
-
-**Kinvey.Query**
 
 
 ### Namespaces

@@ -1,0 +1,16 @@
+(function KinveyAngularMockClosure() {
+    'use strict';
+    
+    function $kinvey($q) {
+        var Kinvey = {};
+        
+        <%= contents %>
+        
+        return Kinvey;
+    }
+    
+    
+    angular.module('kinvey-mock', [])
+        .factory('$kinvey', $kinvey);
+    
+}());

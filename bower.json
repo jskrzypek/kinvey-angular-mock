@@ -1,11 +1,11 @@
 {
   "name": "angular-kinvey-mock",
-  "version": "0.0.3",
+  "version": "0.0.2",
   "authors": [
     "Levi Thomason <levi@gravityjack.com>"
   ],
   "description": "Mock the official $kinvey AngularJS service in unit tests.",
-  "main": "angular-kinvey-mock.js",
+  "main": "./angular-kinvey-mock.js",
   "keywords": [
     "angular",
     "angularjs",
@@ -17,6 +17,9 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
+    ".gitignore",
+    "gulpfile.js",
+    "pacakge.json",
     "node_modules",
     "bower_components",
     "test",
