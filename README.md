@@ -30,10 +30,15 @@ describe('kinvey-mock module', function() {
 
 ## Support
 
-### Members
+### Module Members
 * $kinvey.API_ENDPOINT
 * $kinvey.API_VERSION
 * $kinvey.SDK_VERSION
+
+### Module Methods
+* $kinvey.getActiveUser()
+* $kinvey.init()
+* $kinvey.ping()
 
 ### Classes
 
@@ -67,11 +72,6 @@ describe('kinvey-mock module', function() {
 * query.toJSON()
 * query.withinBox()
 * query.withinPolygon()
-
-### Methods
-* $kinvey.getActiveUser()
-* $kinvey.init()
-* $kinvey.ping()
 
 ### Namespaces
 
@@ -113,23 +113,17 @@ describe('kinvey-mock module', function() {
 ## TODO
 PRs welcome!
 
-### Methods
+### Module Methods
 * $kinvey.execute(id, args, options)
 * $kinvey.setActiveUser(user)
 
 ### Classes
 #### Kinvey.Acl
-
 #### Kinvey.Error
-
 #### Kinvey.Group
-
 #### Kinvey.Metadata
-
 
 ### Namespaces
 #### Kinvey.Defer
-
 #### Kinvey.Social
-
 #### Kinvey.Sync
