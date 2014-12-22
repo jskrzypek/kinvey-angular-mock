@@ -31,15 +31,15 @@ describe('kinvey-mock module', function() {
 ## Support
 
 ### Members
-
 * $kinvey.API_ENDPOINT
 * $kinvey.API_VERSION
 * $kinvey.SDK_VERSION
 
 ### Classes
 
-**Kinvey.Query**
-Assuming `var query = new $kinvey.Query();`:
+#### Kinvey.Query
+
+*Assuming `var query = new $kinvey.Query();`:*
 
 * query.and()
 * query.ascending()
@@ -69,23 +69,46 @@ Assuming `var query = new $kinvey.Query();`:
 * query.withinPolygon()
 
 ### Methods
-
 * $kinvey.getActiveUser()
 * $kinvey.init()
 * $kinvey.ping()
 
 ### Namespaces
 
-**Kinvey.DataStore**
-* wip
+#### Kinvey.DataStore
+* $kinvey.DataStore.clean()
+* $kinvey.DataStore.count()
+* $kinvey.DataStore.destroy()
+* $kinvey.DataStore.find()
+* $kinvey.DataStore.get()
+* $kinvey.DataStore.group()
+* $kinvey.DataStore.save()
+* $kinvey.DataStore.update()
 
-**Kinvey.File**
+#### Kinvey.File
 * $kinvey.File.upload(file)
 * $kinvey.File.destroy(fileId)
 * $kinvey.File.stream(fileId)
 
-**Kinvey.User**
-* wip
+#### Kinvey.User
+* $kinvey.User.count()
+* $kinvey.User.create()
+* $kinvey.User.destroy()
+* $kinvey.User.exists()
+* $kinvey.User.find()
+* $kinvey.User.forgotUsername()
+* $kinvey.User.get()
+* $kinvey.User.group()
+* $kinvey.User.login()
+* $kinvey.User.loginWithProvider()
+* $kinvey.User.logout()
+* $kinvey.User.me()
+* $kinvey.User.resetPassword()
+* $kinvey.User.restore()
+* $kinvey.User.signup()
+* $kinvey.User.signupWithProvider()
+* $kinvey.User.update()
+* $kinvey.User.verifyEmail()
 
 ## TODO
 PRs welcome!
@@ -95,18 +118,18 @@ PRs welcome!
 * $kinvey.setActiveUser(user)
 
 ### Classes
-**Kinvey.Acl**
+#### Kinvey.Acl
 
-**Kinvey.Error**
+#### Kinvey.Error
 
-**Kinvey.Group**
+#### Kinvey.Group
 
-**Kinvey.Metadata**
+#### Kinvey.Metadata
 
 
 ### Namespaces
-**Kinvey.Defer**
+#### Kinvey.Defer
 
-**Kinvey.Social**
+#### Kinvey.Social
 
-**Kinvey.Sync**
+#### Kinvey.Sync
