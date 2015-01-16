@@ -46,6 +46,7 @@ describe('kinvey-mock module', function() {
 
 *Assuming `var acl = new $kinvey.Acl(<entity>);`:*
 
+* acl.addReader()
 * acl.addReaderGroup()
 * acl.addWriter()
 * acl.addWriterGroup()
