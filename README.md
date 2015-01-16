@@ -42,6 +42,28 @@ describe('kinvey-mock module', function() {
 
 ### Classes
 
+#### Kinvey.Acl
+
+*Assuming `var acl = new $kinvey.Acl(<entity>);`:*
+
+* acl.addReaderGroup()
+* acl.addWriter()
+* acl.addWriterGroup()
+* acl.getCreator()
+* acl.getReaderGroups()
+* acl.getReaders()
+* acl.getWriterGroups()
+* acl.getWriters()
+* acl.isGloballyReadable()
+* acl.isGloballyWritable()
+* acl.removeReader()
+* acl.removeReaderGroup()
+* acl.removeWriter()
+* acl.removeWriterGroup()
+* acl.setGloballyReadable()
+* acl.setGloballyWritable()
+* acl.toJSON()
+
 #### Kinvey.Query
 
 *Assuming `var query = new $kinvey.Query();`:*
@@ -118,7 +140,6 @@ PRs welcome!
 * $kinvey.setActiveUser(user)
 
 ### Classes
-#### Kinvey.Acl
 #### Kinvey.Error
 #### Kinvey.Group
 #### Kinvey.Metadata
@@ -127,3 +148,15 @@ PRs welcome!
 #### Kinvey.Defer
 #### Kinvey.Social
 #### Kinvey.Sync
+
+
+# Development
+
+1. Fork repo.
+1. Create feature branch.
+1. Edit `/src` code.
+1. Increment bower.json version.
+1. Run `gulp build`.
+1. Submit a PR.
+
+*Need more help?  Ask away on the issue queue, thanks!*
