@@ -90,57 +90,61 @@
 
 
         Kinvey.Acl = function() {
+            return {
+                addReader: function(group) {
 
-            Kinvey.Acl.prototype.addReaderGroup = function(group) {
+                },
+                addReaderGroup: function(group) {
 
-            };
-            Kinvey.Acl.prototype.addWriter = function(user) {
+                },
+                addWriter: function(user) {
 
-            };
-            Kinvey.Acl.prototype.addWriterGroup = function(group) {
+                },
+                addWriterGroup: function(group) {
 
-            };
-            Kinvey.Acl.prototype.getCreator = function() {
+                },
+                getCreator: function() {
 
-            };
-            Kinvey.Acl.prototype.getReaderGroups = function() {
+                },
+                getReaderGroups: function() {
 
-            };
-            Kinvey.Acl.prototype.getReaders = function() {
+                },
+                getReaders: function() {
 
-            };
-            Kinvey.Acl.prototype.getWriterGroups = function() {
+                },
+                getWriterGroups: function() {
 
-            };
-            Kinvey.Acl.prototype.getWriters = function() {
+                },
+                getWriters: function() {
 
-            };
-            Kinvey.Acl.prototype.isGloballyReadable = function() {
+                },
+                isGloballyReadable: function() {
 
-            };
-            Kinvey.Acl.prototype.isGloballyWritable = function() {
+                },
+                isGloballyWritable: function() {
 
-            };
-            Kinvey.Acl.prototype.removeReader = function(user) {
+                },
+                removeReader: function(user) {
 
-            };
-            Kinvey.Acl.prototype.removeReaderGroup = function(group) {
+                },
+                removeReaderGroup: function(group) {
 
-            };
-            Kinvey.Acl.prototype.removeWriter = function(user) {
+                },
+                removeWriter: function(user) {
 
-            };
-            Kinvey.Acl.prototype.removeWriterGroup = function(group) {
+                },
+                removeWriterGroup: function(group) {
 
-            };
-            Kinvey.Acl.prototype.setGloballyReadable = function(gr) {
+                },
+                setGloballyReadable: function(gr) {
 
-            };
-            Kinvey.Acl.prototype.setGloballyWritable = function(gw) {
+                },
+                setGloballyWritable: function(gw) {
 
-            };
-            Kinvey.Acl.prototype.toJSON = function() {
+                },
+                toJSON: function() {
 
+                }
             };
         };
 
