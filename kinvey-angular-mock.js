@@ -84,6 +84,20 @@
             return deferred.promise;
         };
 
+        Kinvey.execute = function(id, args, options) {
+            var deferred = $q.defer();
+
+            deferred.resolve({
+                namespace: 'rpc',
+                collection: 'custom',
+                id: id,
+                data: args,
+                auth: true
+            });
+
+            return deferred.promise;
+        };
+
         // Acl
         //
         // http://devcenter.kinvey.com/angular/reference/api/Kinvey.Acl.html
