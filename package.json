@@ -1,5 +1,5 @@
 {
-  "name": "kinvey-angular-mock",
+  "name": "kinvey-mock",
   "version": "1.0.0",
   "description": "Mock the official Kinvey AngularJS service.",
   "main": "kinvey-angular-mock.js",
